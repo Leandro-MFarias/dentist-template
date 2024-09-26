@@ -1,4 +1,5 @@
 import { About } from "./components/About";
+import { ButtonZap } from "./components/ButtonZap";
 import { Destaques } from "./components/Destaques";
 import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
@@ -14,6 +15,7 @@ export function App() {
       <About />
       <Space />
       <Footer />
+      <ButtonZap />
     </main>
   )
 }
