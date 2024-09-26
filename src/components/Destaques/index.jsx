@@ -11,7 +11,7 @@ import smile from '../../assets/smile.png'
 
 export function Destaques() {
     return (
-        <section id='servico' className='flex flex-col max-w-[80%] md:max-w-[70%] m-auto bg-zinc-100 p-16 space-y-20 rounded-2xl mb-40'>
+        <section id='servico' className='flex flex-col max-w-[80%] md:max-w-[70%] m-auto bg-zinc-100 p-16 space-y-20 rounded-2xl mb-36 md:mb-28'>
             <div className='space-y-4 max-w-4xl'>
                 <h3 className='text-zinc-900 text-5xl font-semibold'>Nossos principais serviços</h3>
                 <p className='text-zinc-500 text-xl'>

@@ -20,6 +20,9 @@ export default {
       },
       animation: {
         downarrow: 'downarrow 0.9s infinite alternate ease-in-out'
+      },
+      boxShadow: {
+        shape: 'inset 3px 3px 3px #a0a0a0, inset -3px -3px 3px #808080;'
       }
     },
   },

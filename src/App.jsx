@@ -1,6 +1,9 @@
+import { About } from "./components/About";
 import { Destaques } from "./components/Destaques";
+import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
 import { Hero } from "./components/Hero";
+import { Space } from "./components/Space";
 
 export function App() {
   return (
@@ -8,6 +11,9 @@ export function App() {
       <Header />
       <Hero />
       <Destaques />
+      <About />
+      <Space />
+      <Footer />
     </main>
   )
 }

@@ -2,7 +2,7 @@ import { useState } from 'react'
 import logo from '../../assets/logo.png'
 
 export function Header() {
-    const [ isOpen, setIsOpen ] = useState(false)
+    const [isOpen, setIsOpen] = useState(false)
 
     function handleOpenMenu() {
         setIsOpen(!isOpen)
@@ -20,7 +20,7 @@ export function Header() {
                         <a href="#servico">Serviços</a>
                     </li>
                     <li className='hover:text-sky-400 transition duration-300 ease-in-out'>
-                        <a href="#sobre">Sobre nós</a>
+                        <a href="#sobre">Sobre mim</a>
                     </li>
                     <li className='hover:text-sky-400 transition duration-300 ease-in-out'>
                         <a href="#clinica">Nossa clínica</a>
