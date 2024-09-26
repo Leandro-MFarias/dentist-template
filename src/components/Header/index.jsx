@@ -15,7 +15,7 @@ export function Header() {
                 <h2 className='text-xl xl:text-3xl'>DENTYTECH</h2>
             </div>
             <nav className='relative'>
-                <ul className={`text-lg md:flex mr-4 ${isOpen ? 'gap-3 flex flex-col items-center bg-black/60 px-6 py-2 w-52 translate-y-20 -translate-x-8 rounded-lg' : 'gap-16 hidden'}`}>
+                <ul className={`text-lg md:flex mr-4 ${isOpen ? 'gap-3 flex flex-col items-center bg-black px-6 py-2 w-52 translate-y-20 -translate-x-8 rounded-lg' : 'gap-16 hidden'}`}>
                     <li className='hover:text-sky-400 transition duration-300 ease-in-out'>
                         <a href="#servico">Serviços</a>
                     </li>
